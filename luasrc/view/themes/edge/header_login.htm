@@ -1,8 +1,8 @@
 <%#
 	Edge is a clean HTML5 theme for LuCI. It is based on luci-theme-material edge Template
 
-	luci-theme-Edge
-	Copyright 2020 Kiddin'
+	Modified from luci-theme-Edge
+	Copyright 2022 Kiddin'
 
 	Have a bug? Please create an issue here on GitHub!
 	https://github.com/kiddin9/luci-theme-edge/issues 
@@ -45,15 +45,15 @@
 	<meta charset="utf-8">
 	<title>
 		<%=striptags( (boardinfo.hostname or "?") .. ( (node and node.title) and ' - ' .. translate(node.title) or '')) %>
-		- LuCI</title>
+		- 一颗大萝北</title>
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="theme-color" content="#09c">
 	<meta name="msapplication-tap-highlight" content="no">
 	<meta name="msapplication-TileColor" content="#09c">
-	<meta name="application-name" content="<%=striptags( (boardinfo.hostname or "?") ) %> - LuCI">
-	<meta name="apple-mobile-web-app-title" content="<%=striptags( (boardinfo.hostname or "?") ) %> - LuCI">
+	<meta name="application-name" content="<%=striptags( (boardinfo.hostname or "?") ) %> - 一颗大萝北">
+	<meta name="apple-mobile-web-app-title" content="<%=striptags( (boardinfo.hostname or "?") ) %> - 一颗大萝北">
 	<meta name="msapplication-TileImage" content="<%=media%>/logo.png" />
 	<link rel="icon" href="<%=media%>/logo.png" sizes="144x144">
 	<link rel="apple-touch-icon-precomposed" href="<%=media%>/logo.png" sizes="144x144">

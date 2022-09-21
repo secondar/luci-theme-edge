@@ -19,13 +19,13 @@
 <% local ver = require "luci.version" %>
 	</div>
 	<footer class="mobile-hide">
+	<a >一颗大萝北 Template be based on</a> /
 	<a href="https://github.com/openwrt/luci">Powered by <%= ver.luciname %> (<%= ver.luciversion %>)</a> / <%= ver.distversion %>
 	<ul class="breadcrumb pull-right" id="modemenu" style="display:none"></ul>
 	</footer>
 	</div>
 </div>
 <script>
-	// thanks for Jo-Philipp Wich <jow@openwrt.org>
 	var luciLocation = <%= luci.http.write_json(luci.dispatcher.context.path) %>;
 </script>
 <script src="<%=media%>/js/script.js?v=2.1"></script>
